@@ -6,7 +6,7 @@ if not exist setup-x86_64.exe (
     goto :EOF
 )
 
-set root=%USERPROFILE%\Software\cygwin2
+set root=%USERPROFILE%\Software\cygwin
 set packages=%root%\packages
 set mirror=http://cygwin.mirrors.hoobly.com/
 setx HOME %USERPROFILE%
