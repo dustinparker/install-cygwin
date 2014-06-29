@@ -27,4 +27,5 @@ setx HOME %USERPROFILE%
 copy /Y minttyrc %USERPROFILE%\.minttyrc
 copy /Y tmux.conf %USERPROFILE%\.tmux.conf
 
-mkshortcut /target:"%root%\bin\mintty" /arguments:"/bin/bash -l" /shortcut:"%USERPROFILE%\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\Cygwin"
+mkshortcut /target:"%root%\bin\mintty" /arguments:"/bin/bash -l" /shortcut:"Cygwin"
+pin-to-taskbar /shortcut:"Cygwin.lnk"
