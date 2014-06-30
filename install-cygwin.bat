@@ -2,7 +2,7 @@
 
 call config.bat
 
-setx HOME %USERPROFILE%
+setx HOME %%USERPROFILE%%
 
 .\setup-x86_64.exe ^
     --no-admin ^
